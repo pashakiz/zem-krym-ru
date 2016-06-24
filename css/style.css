@@ -34,9 +34,10 @@ body {
 	min-height: 35px;
 	background-color: #02baf1;
 	padding: 7px 0;
+	text-align: center;
 }
 .worktime {
-	float: left;
+	margin: 0 auto;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
@@ -50,8 +51,10 @@ body {
 .icon-time {
 	font-size: 18px;
 	margin-right: 11px;
+	vertical-align: sub;
 }
 .call2skype {
+	display: none;
 	float: right;
 	color: inherit;
 	font-size: 14px;
@@ -69,8 +72,174 @@ body {
 .icon-skype {
 	font-size: 19px;
 	margin-right: 9px;
+	vertical-align: middle;
 }
-.header-bottom {}
+.header-bottom {
+	text-align: center;
+}
+.logo {
+	display: block;
+	width: 355px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.logo__image {
+	float: left;
+	width: 152px;
+	height: 81px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+.logo__text {
+	float: left;
+}
+.logo__name {
+	color: #005978;
+	font-family: "AllertaStencil", sans-serif;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 10px 0 3px;
+}
+.logo__slogan {
+	color: #0398c0;
+	font-family: "Helvetica", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+.phone {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+}
+.phone__text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	margin: 20px 0 3px;
+}
+.phone__number {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+}
+.btn {
+	display: block;
+	border-radius: 6px;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	text-align: center;
+	padding: 17px 28px;
+	-webkit-box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
+	-moz-box-shadow:    inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
+	box-shadow:         inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
+	background: #ff984d;
+	background: -moz-linear-gradient(top,  #ff984d 0%, #f76b1c 100%);
+	background: -webkit-linear-gradient(top,  #ff984d 0%,#f76b1c 100%);
+	background: linear-gradient(to bottom,  #ff984d 0%,#f76b1c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff984d', endColorstr='#f76b1c',GradientType=0 );
+}
+.btn-recall {
+	margin: 23px 0 25px 0;
+}
+.header-bottom__line {
+	width: 100%;
+	height: 6px;
+	background-color: #02baf1;
+	margin-bottom: 1px;
+}
+.firstscreen {
+	height: 669px;
+	background-image: url(../img/bg-firstscreen.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.firstscreen__title {
+	color: #fff;
+	font-size: 51px;
+	font-weight: 700;
+	line-height: 62px;
+	text-shadow: 0 4px 0 #004f6a;
+	text-align: center;
+	margin: 18px 0 22px;
+}
+.firstscreen__form {
+	float: right;
+	width: 457px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+.firstscreen__form-header {
+	background-color: #00a2d3;
+	-webkit-border-radius: 18px 18px 0 0;
+	-moz-border-radius: 18px 18px 0 0;
+	border-radius: 18px 18px 0 0;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+	text-align: center;
+}
+.firstscreen__form-title {
+	padding: 11px 45px 9px;
+}
+.firstscreen__form-header:after {
+	display: block;
+	content: "";
+	height: 7px;
+	width: 100%;
+	background-image: url(../img/zub.svg);
+	background-repeat: repeat-x;
+	position: relative;
+	bottom: -7px;
+}
+.firstscreen__form-body {
+	background-color: #eaeaea;
+	-webkit-border-radius: 0 0 18px 18px;
+	-moz-border-radius: 0 0 18px 18px;
+	border-radius: 0 0 18px 18px;
+	-webkit-box-shadow: inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+	-moz-box-shadow:    inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+	box-shadow:         inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+}
+.firstscreen__form-body-row {
+	padding: 19px 36px 10px;
+}
+.list-check {
+	margin: 0;
+	padding: 0 0 0 36px;
+	list-style: none;
+}
+.list-check__item {
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	margin-bottom: 11px;
+}
+.list-check__item:last-child {
+	margin-bottom: 0;
+}
+.list-check__item-icon {
+	color: #f87122;
+	font-size: 23px;
+	margin-right: 13px;
+	position: absolute;
+	left: -36px;
+}
+.firstscreen__form-body-hr {
+	height: 1px;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #fff;
+}
+.firstscreen-input {}
+
 
 
 

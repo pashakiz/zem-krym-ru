@@ -35,7 +35,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	.header-top {
+		text-align: left;
+	}
+	.worktime {
+		float: left;
+	}
+	.call2skype {
+		display: block;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -50,5 +58,21 @@
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.logo {
+		float: left;
+	}
+	.header-contact {
+		float: right;
+	}
+	.phone {
+		float: left;
+	}
+	.btn-recall {
+		float: left;
+		margin: 23px 0 25px 30px;
+	}
+	// .firstscreen__form {
+	// 	float: right;
+	// }
 
 }
