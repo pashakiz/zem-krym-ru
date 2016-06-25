@@ -361,6 +361,7 @@ body {
 .advantages {
 	color: #1e1e1e;
 	padding: 30px 0 12px 0;
+	text-align: center;
 }
 .advantages__title {
 	text-align: center;
@@ -378,6 +379,8 @@ body {
 .advantage {
 	font-size: 1px;
 	margin-bottom: 20px;
+	display: inline-block;
+	text-align: left;
 }
 .advantage__icon {
 	display: inline-block;
@@ -422,6 +425,58 @@ body {
 	font-size: 11px;
 	line-height: 16px;
 }
+.stages {
+	height: 866px;
+	background-image: url(../img/bg-stages-mobile.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	color: #fff;
+}
+.stage {
+	width: 368px;
+	margin: 0 auto 43px;
+}
+.stage_2 {
+	margin-bottom: 55px;
+}
+.stage__title {
+	display: table;
+	width: 303px;
+	height: 80px;
+	background-color: #fff;
+	border: 1px dashed #10a7d4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #004f6a;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 16px auto 20px;
+	padding: 0 20px;
+}
+.stage__title-val {
+	display: table-cell;
+	vertical-align: middle;
+}
+.list_circle-white {
+	color: #fff;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 0 35px 0 51px;
+}
+.list_circle-white .list__item {
+	margin-bottom: 11px;
+}
+.list_circle-white .list__item-icon.icon-circle {
+	color: #fff;
+	margin-right: 10px;
+	left: -18px;
+}
+
+
+
 
 
 

@@ -72,10 +72,7 @@
 		margin: 23px 0 25px 30px;
 	}
 	.firstscreen {
-		height: 684px;
 		background-image: url(../img/bg-firstscreen.png);
-		background-repeat: no-repeat;
-		background-position: 50% 0;
 	}
 	.firstscreen__title {
 		font-size: 51px;
@@ -135,9 +132,11 @@
 	}
 	.advantages {
 		padding: 21px 0 20px 0;
+		text-align: left;
 	}
 	.advantage {
 		margin-bottom: 0;
+		display: block;
 	}
 	.advantage__icon {
 		width: 107px;
@@ -170,6 +169,43 @@
 	.advantages__subtitle {
 		font-size: 21px;
 		line-height: 24px;
+	}
+	.stages {
+		height: 346px;
+		background-color: #10a7d4;
+		background-image: url(../img/bg-stages.jpg);
+	}
+	.stage {
+		float: left;
+		width: 33.333333%;
+		margin: 0;
+	}
+	.stage__title {
+		width: 350px;
+		font-size: 22px;
+		line-height: 25px;
+		margin: 27px auto 17px;
+	}
+	.stage_1 {
+		padding-right: 30px;
+	}
+	.stage_3 {
+		margin-bottom: 0;
+	}
+	.stage_3 {
+		padding-left: 30px;
+	}
+	.list_circle-white {
+		font-size: 16px;
+		line-height: 19px;
+		padding: 0 0 0 24px;
+	}
+	.list_circle-stage2 {
+		padding-left: 39px;
+	}
+	.list_circle-white .list__item-icon.icon-circle {
+		margin-right: 16px;
+		left: -24px;
 	}
 
 }
