@@ -71,6 +71,12 @@
 		float: left;
 		margin: 23px 0 25px 30px;
 	}
+	.firstscreen {
+		height: 684px;
+		background-image: url(../img/bg-firstscreen.png);
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+	}
 	.firstscreen__title {
 		font-size: 51px;
 		line-height: 62px;
@@ -126,6 +132,44 @@
 	}
 	.tooltip_sale {
 		display: block;
+	}
+	.advantages {
+		padding: 21px 0 20px 0;
+	}
+	.advantage {
+		margin-bottom: 0;
+	}
+	.advantage__icon {
+		width: 107px;
+		height: 107px;
+		-webkit-border-radius: 54px;
+		-moz-border-radius: 54px;
+		border-radius: 54px;
+	}
+	.advantage__icon > i {
+		width: 99px;
+		height: 99px;
+		font-size: 51px;
+		-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+		border-radius: 50px;
+	}
+	.advantage__title {
+		font-size: 19px;
+		line-height: 23px;
+	}
+	.advantage__text {
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.advantages__title {
+		font-size: 35px;
+		line-height: 41px;
+		margin: 44px 0 8px;
+	}
+	.advantages__subtitle {
+		font-size: 21px;
+		line-height: 24px;
 	}
 
 }
