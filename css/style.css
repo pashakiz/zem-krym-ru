@@ -136,6 +136,8 @@ body {
 	-webkit-box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
 	-moz-box-shadow:    inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
 	box-shadow:         inset 0px -5px 0px 0px rgba(0, 0, 0, 0.12);
+	outline: none;
+	border: none;
 	background: #ff984d;
 	background: -moz-linear-gradient(top,  #ff984d 0%, #f76b1c 100%);
 	background: -webkit-linear-gradient(top,  #ff984d 0%,#f76b1c 100%);
@@ -158,23 +160,23 @@ body {
 	height: 669px;
 	background-image: url(../img/bg-firstscreen.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-position: 50% 0;
 }
 .firstscreen__title {
 	color: #fff;
-	font-size: 51px;
+	font-size: 31px;
 	font-weight: 700;
-	line-height: 62px;
+	line-height: 37px;
 	text-shadow: 0 4px 0 #004f6a;
-	text-align: center;
 	margin: 18px 0 22px;
 }
 .form1 {
-	float: right;
-	width: 457px;
+	width: 305px;
+	margin: 0 auto;
 	-webkit-border-radius: 18px;
 	-moz-border-radius: 18px;
 	border-radius: 18px;
+	position: relative;
 }
 .form1__header {
 	background-color: #00a2d3;
@@ -183,13 +185,13 @@ body {
 	border-radius: 18px 18px 0 0;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
 	color: #fff;
-	font-size: 32px;
 	font-weight: 700;
-	line-height: 38px;
+	font-size: 21px;
+	line-height: 24px;
 	text-align: center;
 }
 .form1__title {
-	padding: 11px 45px 9px;
+	padding: 13px 18px;
 }
 .form1__header:after {
 	display: block;
@@ -211,45 +213,46 @@ body {
 	box-shadow:         inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
 }
 .form1__body-row {
-	padding: 19px 36px 10px;
+	padding: 14px 20px 0;
 }
-.list-check {
-	margin: 0;
+.list {
+	margin: 0 0 5px 0;
 	padding: 0 0 0 36px;
 	list-style: none;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
 }
-.list-check__item {
+.list__item {
 	display: block;
 	position: relative;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 19px;
-	margin-bottom: 11px;
+	margin-bottom: 13px;
 }
-.list-check__item:last-child {
+.list__item:last-child {
 	margin-bottom: 0;
 }
-.list-check__item-icon {
+.list__item-icon {
 	color: #f87122;
-	font-size: 23px;
-	margin-right: 13px;
+	font-size: 19px;
+	margin-right: 11px;
 	position: absolute;
-	left: -36px;
+	left: -30px;
 }
 .form1__body-hr1 {
-	height: 1px;
-	border-top: 1px solid #d9d9d9;
-	border-bottom: 1px solid #fff;
+	display: none;
 }
 .form1__body-hr2 {
 	height: 1px;
 	border-top: 1px solid #f6f6f6;
 	border-bottom: 1px solid #e1e1e1;
 }
+.form1-firstscreen {
+	margin-top: -4px;
+}
 .form1__input {
 	display: block;
 	width: 100%;
-	padding: 18px 16px 14px;
+	padding: 13px 12px 12px;
 	background-color: #fff;
 	border: 1px solid #0093bf;
 	color: #888;
@@ -263,13 +266,96 @@ body {
 	-moz-box-shadow:    inset 0 3px 0 rgba(0, 0, 0, 0.27);
 	box-shadow:         inset 0 3px 0 rgba(0, 0, 0, 0.27);
 	outline: none;
-	margin-bottom: 12px;
+	margin-bottom: 6px;
 }
 .btn-send-firstscreen {
 	width: 100%;
-	margin: 1px 0 0px;
+	margin: 0;
+	padding: 16px 0;
+	font-size: 15px;
+	line-height: 18px;
 }
-
-
-
+.data-security {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15px;
+	text-align: center;
+	margin: -2px 0 0;
+	padding-bottom: 20px;
+}
+.data-security__icon {
+	color: #848484;
+	font-size: 17px;
+	margin-right: 10px;
+	vertical-align: text-top;
+}
+.tooltip {
+	width: 414px;
+	position: absolute;
+	bottom: 18px;
+	left: -419px;
+	background: #fffdfd;
+	-webkit-border-radius: 15px;;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-bottom: 2px solid #808080;
+	padding: 12px 22px 19px;
+}
+.tooltip_sale {
+	display: none;
+}
+.tooltip:after, .tooltip:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.tooltip:after {
+	border-color: rgba(255, 253, 253, 0);
+	border-left-color: #fffdfd;
+	border-width: 15px;
+	margin-top: -15px;
+}
+.tooltip:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-left-color: #808080;
+	border-width: 16px;
+	margin-top: -15px;
+}
+.tooltip__title {
+	color: #fb8235;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38px;
+}
+.tooltip__text {
+	margin-bottom: 7px;
+}
+.list_circle {
+	margin: 0;
+	padding: 0 0 0 21px;
+	color: #1e1e1e;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15px;
+}
+.list_circle .list__item {
+	margin-bottom: 5px;
+}
+.list__item-icon.icon-circle {
+	font-size: 9px;
+	color: #f9782a;
+	margin-right: 13px;
+	position: absolute;
+	left: -21px;
+	top: 4px;
+}
+.salesumm {
+	color: #d11616;
+	font-weight: 700;
+}
 

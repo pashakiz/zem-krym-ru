@@ -31,11 +31,11 @@
 }
 @font-face {
 	font-family: "Roboto";
-	src: url("../fonts/RobotoBold/RobotoBold.eot");
-	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
-	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
-	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"),
-	url("../fonts/RobotoBold/RobotoBold.svg#RobotoBold") format("svg");
+	src: url("../fonts/Roboto/RobotoBold.eot");
+	src: url("../fonts/Roboto/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Roboto/RobotoBold.woff") format("woff"),
+	url("../fonts/Roboto/RobotoBold.ttf") format("truetype"),
+	url("../fonts/Roboto/RobotoBold.svg#RobotoBold") format("svg");
 	font-style: normal;
 	font-weight: 700;
 }

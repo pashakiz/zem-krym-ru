@@ -53,6 +53,8 @@ $(document).ready(function() {
 			return false;
 		}
 
+		//маска на телефон
+
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
