@@ -39,17 +39,10 @@ $(document).ready(function() {
 	$("form").submit(function() {
 
 		var name = $(this).find("input[name='name']").val(),
-			email = $(this).find("input[name='email']").val();
+			phone = $(this).find("input[name='phone']").val();
 
-		if (!name || !email) {
+		if (!name || !phone) {
 			alert("Заполните поля формы.");
-			return false;
-		}
-
-		var email_regexp = /.+@.+\..+/i;
-		var email_test = email_regexp.test(email);
-		if (!email_test) {
-			alert("Введен некоректный Email-адрес.");
 			return false;
 		}
 
