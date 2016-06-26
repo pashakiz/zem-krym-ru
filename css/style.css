@@ -79,35 +79,38 @@ body {
 }
 .logo {
 	display: block;
-	width: 355px;
+	width: 295px;
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 18px 0 17px;
 }
 .logo__image {
 	float: left;
-	width: 152px;
-	height: 81px;
-	background-image: url(../img/logo.png);
-	background-repeat: no-repeat;
-	margin-right: 15px;
+	width: 127px;
+	height: 68px;
+	margin-right: 13px;
+}
+.logo__img {
+	width: 100%;
+	height: auto;
 }
 .logo__text {
 	float: left;
+	text-align: left;
 }
 .logo__name {
 	color: #005978;
 	font-family: "AllertaStencil", sans-serif;
-	font-size: 27px;
 	font-weight: 400;
-	line-height: 35px;
+	font-size: 23px;
+	line-height: 29px;
 	margin: 10px 0 3px;
 }
 .logo__slogan {
 	color: #0398c0;
 	font-family: "Helvetica", sans-serif;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 400;
-	line-height: 19px;
+	line-height: 16px;
 }
 .phone {
 	font-family: "Roboto", sans-serif;
@@ -117,7 +120,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19px;
-	margin: 20px 0 3px;
+	margin: 0 0 3px;
 }
 .phone__number {
 	font-size: 32px;
@@ -145,7 +148,7 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff984d', endColorstr='#f76b1c',GradientType=0 );
 }
 .btn-recall {
-	margin: 23px 0 25px 0;
+	margin: 12px 0 25px 0;
 }
 #form-recall {
 	display: none;
@@ -433,7 +436,7 @@ body {
 	color: #fff;
 }
 .stage {
-	width: 368px;
+	// width: 368px;
 	margin: 0 auto 43px;
 }
 .stage_2 {
@@ -474,8 +477,49 @@ body {
 	margin-right: 10px;
 	left: -18px;
 }
-
-
+.regions {
+	background-image: url(../img/bg-regions.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+.regions__title {
+	color: #1e1e1e;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 41px;
+	margin: 48px 0 40px;
+	text-align: center;
+}
+.regions__needs {
+	margin-bottom: 47px;
+}
+.need {
+	width: 144px;
+	margin: 0 auto 14px;
+	background-color: #fff;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:    0 1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow:         0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.need__img-container {
+	width: 144px;
+	height: 76px;
+}
+.need__img {
+	width: 100%;
+	height: auto;
+}
+.need__label {
+	text-align: center;
+	color: #1c1c1c;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 11px;
+	padding: 5px 0 3px;
+}
 
 
 

@@ -32,6 +32,11 @@
 @media only screen and (min-width : 320px) {
 
 }
+@media only screen and (min-width : 399px) {
+	.stage {
+		width: 368px;
+	}
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
@@ -48,6 +53,41 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	.logo {
+		width: 355px;
+		padding: 10px 0;
+	}
+	.logo__image {
+		width: 152px;
+		height: 81px;
+		margin-right: 15px;
+	}
+	.logo__name {
+		font-size: 27px;
+		line-height: 35px;
+		margin: 10px 0 3px;
+	}
+	.logo__slogan {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.phone__text {
+		margin: 20px 0 3px;
+	}
+	.btn-recall {
+		margin: 23px 0 25px 0;
+	}
+	.need {
+		width: 263px;
+	}
+	.need__img-container {
+		width: 263px;
+		height: 137px;
+	}
+	.need__label {
+		font-size: 15px;
+		line-height: 18px;
+	}
 
 }
 
@@ -210,6 +250,9 @@
 	.list_circle-white .list__item-icon.icon-circle {
 		margin-right: 16px;
 		left: -24px;
+	}
+	.need {
+		margin: 0;
 	}
 
 }
