@@ -436,7 +436,6 @@ body {
 	color: #fff;
 }
 .stage {
-	// width: 368px;
 	margin: 0 auto 43px;
 }
 .stage_2 {
@@ -520,6 +519,15 @@ body {
 	line-height: 11px;
 	padding: 5px 0 3px;
 }
+.regions__map {
+	width: 1205px;
+	height: 560px;
+	margin: 0 auto;
+}
+#svgmap {
+	padding-bottom: 49px;
+}
+
 
 
 
