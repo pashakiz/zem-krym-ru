@@ -79,7 +79,23 @@ jQuery(window).load(function() {
 	if ('contentDocument' in svgobject) {					// У нас действительно там что-то есть?
 		var svgdom = jQuery(svgobject.contentDocument);		// Получаем доступ к объектной модели SVG-файла
 		// Теперь делаем свою работу, например:
-		jQuery(".areatext3", svgdom).attr("fill", "#FF0000");
-		alert('test');
+		// jQuery(".test", svgdom).attr("fill", "#FF0000");
+		$('.area', svgdom).on('mouseover', function() {
+			var id = $(this).attr('id');
+			console.log(id);
+			$('.tooltip-region').hide();
+			if (id == "area-east") {
+				$('.tooltip-region_east').show();
+			}
+			if (id == "area-west") {
+				$('.tooltip-region_west').show();
+			}
+			if (id == "area-south") {
+				$('.tooltip-region_south').show();
+			}
+			if (id == "area-mountain") {
+				$('.tooltip-region_mountain').show();
+			}
+		});
 	}
 });
