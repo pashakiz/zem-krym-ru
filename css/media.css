@@ -254,5 +254,8 @@
 	.need {
 		margin: 0;
 	}
+	.regions__map {
+		display: block;
+	}
 
 }

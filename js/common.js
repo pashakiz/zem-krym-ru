@@ -73,11 +73,13 @@ $(document).ready(function() {
 
 });
 
+// SVG map
 jQuery(window).load(function() {
-	var svgobject = $('#svgmap');
-	if ('contentDocument' in svgobject) {              // У нас действительно там что-то есть?
-		var svgdom = jQuery(svgobject.contentDocument);  // Получаем доступ к объектной модели SVG-файла
+	var svgobject = document.getElementById('svgmap');
+	if ('contentDocument' in svgobject) {					// У нас действительно там что-то есть?
+		var svgdom = jQuery(svgobject.contentDocument);		// Получаем доступ к объектной модели SVG-файла
 		// Теперь делаем свою работу, например:
-		jQuery("#map", svgdom).attr("fill", "red");  // Находим тег с id="figure1" в SVG DOM и заливаем его красным
+		jQuery(".areatext3", svgdom).attr("fill", "#FF0000");
+		alert('test');
 	}
 });
