@@ -100,5 +100,9 @@ jQuery(window).load(function() {
 				$('.tooltip-region_mountain').show();
 			}
 		});
+
+		$('.tooltip-region').on('mouseleave', function() {
+			$(this).hide();
+		});
 	}
 });

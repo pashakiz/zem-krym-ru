@@ -548,6 +548,9 @@ body {
 	left: -63px;
 	top: -2px;
 }
+.tooltip-region:hover {
+	display: block;
+}
 .tooltip-region:after {
 	content: "";
 	width: 0;
