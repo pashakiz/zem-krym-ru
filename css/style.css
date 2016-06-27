@@ -579,22 +579,22 @@ body {
 .tooltip-region_mountain {
 	bottom: 43px;
 	left: 50%;
-	margin-left: -70px;
+	margin-left: -25px;
 }
 .tooltip-region_west {
 	bottom: 125px;
 	left: 50%;
-	margin-left: -282px;
+	margin-left: -230px;
 }
 .tooltip-region_east {
 	bottom: 120px;
 	right: 50%;
-	margin-right: -89px;
+	margin-right: -145px;
 }
 .tooltip-region_south {
 	bottom: 30px;
 	left: 50%;
-	margin-left: -10px;
+	margin-left: 39px;
 }
 .tooltip-region__image {
 	float: left;
