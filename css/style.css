@@ -150,9 +150,6 @@ body {
 .btn-recall {
 	margin: 12px 0 25px 0;
 }
-#form-recall {
-	display: none;
-}
 .header-bottom__line {
 	width: 100%;
 	height: 6px;
@@ -524,16 +521,121 @@ body {
 	width: 1205px;
 	height: 560px;
 	margin: 0 auto;
+	position: relative;
 }
 #svgmap {
 	padding-bottom: 49px;
 }
 .tooltip-region {
 	display: none;
+	width: 577px;
+	position: absolute;
+	background-color: #fff;
+	border: 2px solid #e56000;
+	-webkit-border-radius: 0 11px 11px 11px;
+	-moz-border-radius: 0 11px 11px 11px;
+	border-radius: 0 11px 11px 11px;
+	padding: 18px;
 }
+.tooltip-region:before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 52px 0 0 61px;
+	border-color: #e55f00 transparent transparent transparent;
+	position: absolute;
+	left: -63px;
+	top: -2px;
+}
+.tooltip-region:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 52px 0 0 61px;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+	left: -57px;
+	top: 0;
+}
+.tooltip-region_arrow-right {
+	-webkit-border-radius: 11px 0 11px 11px;
+	-moz-border-radius: 11px 0 11px 11px;
+	border-radius: 11px 0 11px 11px;
+}
+.tooltip-region_arrow-right:before {
+	content: "";
+	border-width: 52px 61px 0 0;
+	left: initial;
+	right: -63px;
+}
+.tooltip-region_arrow-right:after {
+	content: "";
+	border-width: 52px 61px 0 0;
+	left: initial;
+	right: -57px;
+}
+.tooltip-region_mountain {
+	bottom: 43px;
+	left: 50%;
+	margin-left: -70px;
+}
+.tooltip-region_west {
+	bottom: 125px;
+	left: 50%;
+	margin-left: -282px;
+}
+.tooltip-region_east {
+	bottom: 120px;
+	right: 50%;
+	margin-right: -89px;
+}
+.tooltip-region_south {
+	bottom: 30px;
+	left: 50%;
+	margin-left: -10px;
+}
+.tooltip-region__image {
+	float: left;
+	width: 107px;
+	height: 188px;
+	margin-right: 15px;
+}
+.tooltip-region__image img {
+	width: 100%;
+	height: auto;
+}
+.tooltip-region__info {
+	float: left;
+	width: 410px;
+}
+.tooltip-region__title {
+	color: #1a1a1a;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 5px;
+}
+.tooltip-region__text {
+	color: #1a1a1a;
+	font-size: 12px;
+	line-height: 21px;
+	margin-bottom: 13px;
+}
+.btn-tooltip-region {
+	display: inline-block;
+	padding: 10px 28px 14px;
+	font-size: 17px;
+	line-height: 20px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+}
+.tooltip-region__inner {}
 
 
 
 
-
+.popup {
+	display: none;
+}
 

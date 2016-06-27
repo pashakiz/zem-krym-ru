@@ -75,15 +75,18 @@ $(document).ready(function() {
 
 // SVG map
 jQuery(window).load(function() {
+
 	var svgobject = document.getElementById('svgmap');
+
 	if ('contentDocument' in svgobject) {					// У нас действительно там что-то есть?
 		var svgdom = jQuery(svgobject.contentDocument);		// Получаем доступ к объектной модели SVG-файла
-		// Теперь делаем свою работу, например:
-		// jQuery(".test", svgdom).attr("fill", "#FF0000");
+
 		$('.area', svgdom).on('mouseover', function() {
+
 			var id = $(this).attr('id');
-			console.log(id);
+
 			$('.tooltip-region').hide();
+			
 			if (id == "area-east") {
 				$('.tooltip-region_east').show();
 			}
