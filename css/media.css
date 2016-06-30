@@ -431,5 +431,127 @@
 		font-size: 20px;
 		line-height: 24px;
 	}
+	.reviews {
+		padding: 55px 0 47px;
+	}
+	.reviews__title {
+		font-size: 35px;
+		line-height: 41px;
+		margin-bottom: 25px;
+		padding-top: 0;
+	}
+	.recall:before {
+		content: "";
+		width: 16px;
+		height: 16px;
+		border: 1px dashed #dbd05a;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+		position: absolute;
+		top: 72px;
+		left: 189px;
+		z-index: 10;
+	}
+	.recall:after {
+		content: "";
+		width: 16px;
+		height: 16px;
+		top: 72px;
+		left: 191px;
+		border: 1px solid transparent;
+		position: absolute;
+		background: #fffde6;
+		z-index: 30;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	.recall__inner {
+		padding: 28px 15px 25px 70px;
+		margin: 0 167px 0 196px;
+	}
+	.recall__title-icon {
+		float: none;
+		opacity: 1;
+		position: absolute;
+		left: 213px;
+		margin-top: 0;
+	}
+	.recall__title {
+		min-height: 0;
+		font-size: 19px;
+	}
+	.recall__text {
+		margin-top: 16px;
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.recall__user {
+		display: inline-block;
+		margin: 21px 28px 0 0;
+	}
+	.recall__user-img {
+		width: 166px;
+		height: 166px;
+		margin-right: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.recall__name {
+		line-height: 13px;
+		padding-top: 0;
+	}
+	.recall__social {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.recall__social-icon {
+		width: 22px;
+		height: 22px;
+		margin-right: 7px;
+	}
+	.recall__social-icon.icon-vk {
+		font-size: 13px;
+		text-align: left;
+	}
+	.recall__social-icon.icon-ok {
+		font-size: 17px;
+	}
+	.recall__social-text {
+		font-size: 13px;
+	}
+	.recall__original {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.recall__original-lnk {
+		margin-left: 2px;
+		margin-top: 0;
+	}
+	.recall__original-img {
+		display: block;
+		width: 137px;
+		height: 189px;
+		margin-bottom: 11px;
+	}
+	.recall__original-icon {
+		margin-right: 8px;
+	}
+	.recall__original-text {
+		font-size: 13px;
+	}
+	.recall__original-text-mobile {
+		display: none;
+	}
+	.recall__original-text-desktop {
+		display: inline;
+	}
 
 }
