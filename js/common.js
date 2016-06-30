@@ -71,6 +71,21 @@ $(document).ready(function() {
 		return false;
 	});
 
+	// Hide/show regions tooltips (mobile)
+	$('.tooltip-region__title-btn').on('click', function() {
+		if ( $(this).hasClass('active') ) {
+			$(this).removeClass('active');
+			$(this).parent().next(".tooltip-region").hide();
+		} else {
+			$(this).addClass('active');
+			$(this).parent().next(".tooltip-region").show();
+		}
+	});
+	$('.tooltip-region__title-btn-hide').on('click', function() {
+		$(this).closest('.tooltip-region').hide();
+		$(this).closest('.tooltip-region').prev().find('.tooltip-region__title-btn').removeClass('active');
+	});
+
 });
 
 // SVG map
@@ -101,8 +116,10 @@ jQuery(window).load(function() {
 			}
 		});
 
-		$('.tooltip-region').on('mouseleave', function() {
-			$(this).hide();
-		});
+		if ($(window).width() > 1200) { //for Desktops
+			$('.tooltip-region').on('mouseleave', function() {
+				$(this).hide();
+			});
+		}
 	}
 });
