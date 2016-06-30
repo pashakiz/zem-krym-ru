@@ -130,7 +130,7 @@ body {
 .btn {
 	display: block;
 	border-radius: 6px;
-	color: white;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19px;
@@ -246,7 +246,7 @@ body {
 	border-top: 1px solid #f6f6f6;
 	border-bottom: 1px solid #e1e1e1;
 }
-.form1-firstscreen {
+#form1-firstscreen {
 	margin-top: -4px;
 }
 .form1__input {
@@ -599,8 +599,61 @@ body {
 	position: relative;
 	padding-bottom: 39px;
 }
-
-
+.formblue {
+	height: 261px;
+	background-color: #00a2d3;
+	background-image: url(../img/bg-nature.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+}
+.formblue__container {
+	height: 100%;
+	padding: 24px 0 17px;
+	background-image: url(../img/mw-m.png);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+}
+.formblue__form {
+	float: right;
+	width: 226px;
+}
+.formblue__title1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 6px;
+}
+.formblue__title2 {
+	color: #fff;
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 8px;
+}
+.formblue__input {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #0093bf;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.27);
+	-moz-box-shadow:    inset 0 2px 0 rgba(0, 0, 0, 0.27);
+	box-shadow:         inset 0 2px 0 rgba(0, 0, 0, 0.27);
+	color: #888;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 14px 10px 11px;
+	margin-bottom: 6px;
+}
+.btn-send-formblue {
+	width: 100%;
+	padding: 16px;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+}
 
 
 .popup {

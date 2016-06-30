@@ -66,10 +66,10 @@
 					</div>
 					<div class="form1__body-hr1"></div>
 					<div class="form1__body-row">
-						<form class="form1-firstscreen" action="">
+						<form id="form1-firstscreen" action="" method="POST">
 							<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required>
 							<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required>
-							<button class="btn btn-send-firstscreen">Подобрать лучшие участки</button>
+							<button class="btn btn-send-firstscreen" type="submit">Подобрать лучшие участки</button>
 						</form>
 					</div>
 					<div class="form1__body-hr2"></div>
@@ -261,8 +261,20 @@
 			</div>
 		</div> <!-- .regions__map -->
 	</section>
-	<section>
-		<div class="container">section</div>
+	<section class="formblue">
+		<div class="formblue__container">
+			<div class="container clearfix">
+				<div class="formblue__form">
+					<div class="formblue__title1">Отправьте заявку</div>
+					<div class="formblue__title2">На подбор земельного участка <b>вашей мечты!</b></div>
+					<form id="formblue" action="" method="POST">
+						<input class="formblue__input" type="text" name="name" placeholder="Введите ваше имя" required>
+						<input class="formblue__input" type="text" name="phone" placeholder="Ваш телефон" required>
+						<button class="btn btn-send-formblue" type="submit">Подобрать лучшие участки</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section>
 		<div class="container">section</div>

@@ -390,5 +390,46 @@
 	.tooltip-region__inner {
 		padding-bottom: 0;
 	}
+	.formblue {
+		height: 350px;
+	}
+	.formblue__container {
+		padding: 37px 0 42px;
+		background-image: url(../img/mw.png);
+		background-position: 13% 100%;
+		text-align: center;
+	}
+	.formblue__form {
+		float: none;
+		width: auto;
+		display: inline-block;
+		margin-left: 105px;
+	}
+	.formblue__title1 {
+		text-align: left;
+		font-size: 35px;
+		line-height: 41px;
+		margin-bottom: 6px;
+	}
+	.formblue__title2 {
+		text-align: left;
+		font-size: 21px;
+		line-height: 24px;
+		margin-bottom: 28px;
+	}
+	.formblue__input {
+		display: block;
+		width: 386px;
+		font-size: 15px;
+		line-height: 18px;
+		padding: 17px 16px 15px;
+		margin-bottom: 12px;
+	}
+	.btn-send-formblue {
+		width: 386px;
+		padding: 11px 20px 15px;
+		font-size: 20px;
+		line-height: 24px;
+	}
 
 }
