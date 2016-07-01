@@ -574,5 +574,68 @@
 	.guarantees__item {
 		padding: 0 45px;
 	}
+	.formbluesale__title {
+		font-size: 35px;
+		line-height: 46px;
+		padding: 34px 0 29px;
+	}
+	.formbluesale__sale {
+		padding-bottom: 0;
+	}
+	.formbluesale__sale-icon {
+		display: inline-block;
+		width: 181px;
+		height: 78px;
+	}
+	.formbluesale__sale-icon img {
+		width: 100%;
+		height: auto;
+	}
+	.formbluesale__sale-title {
+		display: inline-block;
+		padding: 28px 0 29px;
+		position: relative;
+		left: 24px;
+	}
+	.formbluesale__sale-text {
+		padding: 16px 0 13px 35px;
+	}
+	.formbluesale__sale-text-title {
+		font-size: 23px;
+		line-height: 27px;
+		margin-bottom: 10px;
+	}
+	.formbluesale__sale-text .list {
+		padding: 0 0 0 18px;
+	}
+	.formbluesale__sale-text .list__item-icon {
+		left: -18px;
+		margin-right: 12px;
+	}
+	.formbluesale__sale-text .list__item {
+		font-size: 13px;
+		line-height: 15px;
+		margin-bottom: 5px;
+	}
+	.formbluesale__form {
+		font-size: 1px;
+		padding: 23px 0 28px;
+	}
+	.formbluesale__input {
+		display: inline-block;
+		width: 30%;
+		padding: 17px 16px 15px;
+		font-size: 15px;
+		line-height: 18px;
+		margin-bottom: 0;
+		margin-right: 4%;
+	}
+	.btn-send-formbluesale {
+		display: inline-block;
+		width: 30%;
+		font-size: 20px;
+		line-height: 24px;
+		padding: 11px 0 15px;
+	}
 
 }
