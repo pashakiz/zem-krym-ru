@@ -553,5 +553,26 @@
 	.recall__original-text-desktop {
 		display: inline;
 	}
+	.guarantees {
+		padding: 10px 0 63px;
+		background-image: url(../img/bg-regions.jpg);
+		background-repeat: no-repeat;
+		background-position: 50% 38%;
+	}
+	.guarantees__rope {
+		width: 388px;
+		height: 51px;
+		margin: 0 auto;
+	}
+	.guarantees__title {
+		padding: 36px 0 34px;
+		font-size: 35px;
+		line-height: 28px;
+		text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+		margin-bottom: 47px;
+	}
+	.guarantees__item {
+		padding: 0 45px;
+	}
 
 }
