@@ -677,5 +677,53 @@
 		line-height: 24px;
 		padding: 21px 16px 22px;
 	}
+	.bigtest {
+		padding: 44px 0 46px;
+		border-bottom: 4px solid #fff; 
+		background-image: url(../img/bg-regions.jpg);
+		background-repeat: no-repeat;
+		background-position: 50% 38%;
+	}
+	.bigtest__title {
+		font-size: 35px;
+		line-height: 41px;
+		margin-bottom: 42px;
+	}
+	.bigtest__items {
+		text-align: center;
+		font-size: 1px;
+	}
+	.bigtest__item {
+		display: inline-block;
+		margin-bottom: 68px;
+		margin-right: 23px;
+	}
+	.bigtest__item:last-child {
+		margin-bottom: 68px;
+	}
+	.bigtest__item-icon {
+		font-size: 67px;
+		width: 83px;
+		position: static;
+		vertical-align: middle;
+		text-align: right;
+	}
+	.bigtest__item-icon.icon-forest {
+		font-size: 65px;
+	}
+	.bigtest__item-text {
+		display: inline-block;
+		width: 270px;
+		font-size: 15px;
+		line-height: 23px;
+		padding-left: 23px;
+		text-align: left;
+	}
+	.bigtest__ps {
+		font-size: 22px;
+		line-height: 25px;
+		font-style: italic;
+		margin-top: -20px;
+	}
 
 }

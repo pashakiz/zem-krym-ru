@@ -974,8 +974,54 @@ body {
 	line-height: 18px;
 	padding: 16px;
 }
-
-
+.bigtest {
+	padding: 25px 0 17px;
+}
+.bigtest__title {
+	color: #1e1e1e;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.bigtest__items {}
+.bigtest__item {
+	display: table;
+	min-height: 50px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.bigtest__item:last-child {
+	margin-bottom: 0;
+}
+.bigtest__item-icon {
+	display: inline-block;
+	width: 51px;
+	color: #0899c4;
+	font-size: 51px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bigtest__item-icon.icon-forest {
+	font-size: 41px;
+}
+.bigtest__item-text {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	padding-left: 68px;
+}
+.bigtest__ps {
+	font-size: 18px;
+	line-height: 27px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 27px;
+}
 .popup {
 	display: none;
 }
