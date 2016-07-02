@@ -725,5 +725,33 @@
 		font-style: italic;
 		margin-top: -20px;
 	}
+	.formblue3 {
+		padding: 37px 0 29px;
+	}
+	.formblue3__title1 {
+		font-size: 35px;
+		line-height: 41px;
+		margin-bottom: 4px;
+	}
+	.formblue3__title2 {
+		color: #fff;
+		font-size: 21px;
+		line-height: 24px;
+		margin-bottom: 28px;
+	}
+	#formblue3 {
+		width: 386px;
+		margin: 0 auto;
+	}
+	.btn-send-formblue3 {
+		font-size: 20px;
+		line-height: 24px;
+		padding: 11px 15px 15px;
+	}
+	#formblue3 .data-security {
+		font-size: 13px;
+		line-height: 15px;
+		margin-top: 19px;
+	}
 
 }

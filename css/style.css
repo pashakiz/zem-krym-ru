@@ -1022,6 +1022,52 @@ body {
 	text-align: center;
 	margin-top: 27px;
 }
+.formblue3 {
+	background-color: #00a2d3;
+	background-image: url(../img/bg-nature.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	text-align: center;
+	padding: 17px 0 16px;
+}
+.formblue3__title1 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 9px;
+}
+.formblue3__title2 {
+	color: #fff;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 23px;
+}
+#formblue3 {}
+#formblue3 .formblue__input {
+	width: 100%;
+}
+.btn-send-formblue3 {
+	width: 100%;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 300;
+	padding: 16px 10px;
+}
+#formblue3 .data-security {
+	color: #fff;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 11px;
+	padding-bottom: 0;
+}
+#formblue3 .data-security .data-security__icon {
+	color: #fff;
+	font-size: 13px;
+}
+
+
 .popup {
 	display: none;
 }
