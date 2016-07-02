@@ -927,5 +927,24 @@
 	.btn-send-question {
 		width: 100%;
 	}
+	.footer__top {
+		text-align: left;
+		padding: 18px 0 16px;
+	}
+	.footer__left {
+		float: left;
+	}
+	.footer__right {
+		float: right;
+		text-align: right;
+		margin-bottom: 0;
+	}
+	.footer__lefttext {
+		font-size: 14px;
+		margin-right: 61px;
+	}
+	.footer__bottom {
+		font-size: 14px;
+	}
 
 }

@@ -1170,8 +1170,57 @@ body {
 .contacts__form {
 	display: none;
 }
-
-.footer {}
+.footer {
+	color: #fff;
+}
+.footer__top {
+	background-color: #363636;
+	padding: 17px 0 20px;
+	text-align: center;
+}
+.footer__left {
+	display: inline-block;
+}
+.footer__lefttext {
+	float: left;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 300;
+	margin-right: 71px;
+}
+.footer__lefttext:last-child {
+	margin-right: 0;
+}
+.footer__lefttext > br {
+	line-height: 15px;
+}
+.footer__right {
+	display: inline-block;
+	margin-bottom: 14px;
+}
+.footer__phone {
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+.footer__email {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 26px;
+	text-decoration: underline;
+}
+.footer__email:hover {
+	text-decoration: none;
+}
+.footer__bottom {
+	background-color: #1d1d1d;
+	text-align: center;
+	font-size: 11px;
+	line-height: 26px;
+	padding: 6px;
+}
 .popup {
 	display: none;
 }
