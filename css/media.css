@@ -837,6 +837,95 @@
 		font-size: 15px;
 		line-height: 23px;
 	}
-	.buyprocess__text > a {}
+	.contacts {}
+	.contacts__address {
+		padding: 42px 0 39px;
+		font-size: 1px;
+		padding-left: 50px;
+	}
+	.contacts__address-icon {
+		display: inline-block;
+		position: static;
+		vertical-align: middle;
+	}
+	.contacts__address-text {
+		padding-left: 10px;
+		font-size: 21px;
+		line-height: 24px;
+		vertical-align: middle;
+	}
+	.contacts__row {}
+	.contacts__map {
+		float: left;
+		width: 61%;
+		height: 412px;
+	}
+	.contacts__form {
+		display: block;
+		float: left;
+		width: 39%;
+		height: 412px;
+		padding: 28px 30px 43px;
+		background-color: #00a2d3;
+		background-image: url(../img/bg-nature.png);
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		position: relative;
+		z-index: 150;
+	}
+	.contacts__form-title {
+		color: #fff;
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 41px;
+		margin-bottom: 4px;
+	}
+	.contacts__form-subtitle {
+		color: #fff;
+		font-size: 21px;
+		line-height: 24px;
+		margin-bottom: 16px;
+	}
+	#form-question {
+		width: 360px;
+	}
+	.formquestion__textarea {
+		display: block;
+		width: 100%;
+		min-height: 134px;
+		background-color: #fff;
+		border: 1px solid #0093bf;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		-webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		-moz-box-shadow:    inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		box-shadow:         inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		color: #888;
+		font-size: 15px;
+		line-height: 18px;
+		padding: 17px 16px 15px;
+		margin-bottom: 10px;
+	}
+	.formquestion__input {
+		display: block;
+		width: 100%;
+		background-color: #fff;
+		border: 1px solid #0093bf;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+		-webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		-moz-box-shadow:    inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		box-shadow:         inset 0 2px 0 rgba(0, 0, 0, 0.27);
+		color: #888;
+		font-size: 15px;
+		line-height: 18px;
+		padding: 17px 16px 15px;
+		margin-bottom: 12px;
+	}
+	.btn-send-question {
+		width: 100%;
+	}
 
 }

@@ -121,5 +121,6 @@ jQuery(window).load(function() {
 				$(this).hide();
 			});
 		}
+		
 	}
 });

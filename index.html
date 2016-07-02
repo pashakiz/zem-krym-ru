@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
 </head>
 <body>
 	<header class="header">
@@ -494,10 +495,46 @@
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="container">section</div>
+	<section class="contacts">
+		<div class="contacts__address">
+			<div class="container">
+				<i class="contacts__address-icon icon-location-pin"></i>
+				<div class="contacts__address-text">Республика Крым, г. Ялта, ул. Московская 1/6, офис 212</div>
+			</div>
+		</div>
+		<div class="contacts__row">
+			<div id="ymap" class="contacts__map">
+				<script type="text/javascript">
+					ymaps.ready(init);
+					function init () {
+						var myMap = new ymaps.Map('ymap', {
+								center: [44.49728974, 34.17058541],
+								zoom: 17
+							});
+						var myPlacemark = new ymaps.Placemark([44.49728974, 34.17058541], {
+								hintContent: 'Zem-Krym.ru',
+								balloonContentHeader: 'Продажа земли в Крыму',
+								balloonContentBody: 'Республика Крым, г. Ялта, ул. Московская 1/6, офис 212' 
+							}, {
+								preset: 'twirl#redDotIcon'
+							});
+
+						myMap.geoObjects.add(myPlacemark);
+					}
+				</script>
+			</div>
+			<div class="contacts__form">
+				<div class="contacts__form-title">Остались вопросы?</div>
+				<div class="contacts__form-subtitle">Задайте их нам!</div>
+				<form id="form-question" action="" method="POST">
+					<textarea class="formquestion__textarea" type="text" name="question" placeholder="Введите ваш вопрос" required></textarea>
+					<input class="formquestion__input" type="text" name="phone" placeholder="Ваш телефон" required>
+					<button class="btn btn-send-question" type="submit">Задать вопрос</button>
+				</form>
+			</div>
+		</div>
 	</section>
-	<footer>
+	<footer class="footer">
 		<div class="container">footer</div>
 	</footer>
 	<div class="popup" id="form-recall">.form1</div>
