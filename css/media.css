@@ -41,6 +41,11 @@
 	.tooltip-region__info {
 		width: 230px;
 	}
+	.buyprocess__step {
+		width: 290px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 }
 
@@ -753,5 +758,85 @@
 		line-height: 15px;
 		margin-top: 19px;
 	}
+	.buyprocess {
+		padding: 49px 0 54px;
+		font-size: 1px;
+	}
+	.buyprocess__title {
+		font-size: 35px;
+		line-height: 41px;
+		margin-bottom: 67px;
+	}
+	.buyprocess__step {
+		display: inline-block;
+		width: 263px;
+		height: auto;
+		padding: 21px;
+		margin-bottom: 0;
+		vertical-align: top;
+	}
+	.buyprocess__step_1 {}
+	.buyprocess__step_1:after {
+		width: 157px;
+		height: 165px;
+		background-image: url(../img/arrow-down-right.svg);
+		left: 50%;
+		bottom: -168px;
+	    margin-left: 0;
+	}
+	.buyprocess__step_2 {
+		margin-top: 200px;
+		margin-left: 33px;
+	}
+	.buyprocess__step_2:after {
+		width: 144px;
+		height: 132px;
+		background-image: url(../img/arrow-up-right.svg);
+		left: 50%;
+		top: -135px;
+		margin-left: 0;
+	}
+	.buyprocess__step_3 {
+		    margin-left: 20px;
+	}
+	.buyprocess__step_3:after {
+		width: 157px;
+		height: 165px;
+		background-image: url(../img/arrow-down-right.svg);
+		left: 50%;
+		bottom: -168px;
+	    margin-left: 0;
+	}
+	.buyprocess__step_4 {
+		margin-top: 210px;
+		margin-left: 32px;
+	}
+	.buyprocess__step_4:after {
+		width: 171px;
+		height: 93px;
+		background-image: url(../img/arrow-down-skew.svg);
+		left: 0;
+		bottom: -96px;
+	    margin-left: -20px;
+	}
+	.buyprocess__step_last {
+		float: right;
+		width: 395px;
+		margin-top: 85px;
+		margin-right: 60px;
+		padding: 62px 45px 50px;
+	}
+	.buyprocess__step_last .buyprocess__text {
+		width: 215px;
+		margin-left: 13px;
+	}
+	.buyprocess__icon {
+		margin-bottom: 8px;
+	}
+	.buyprocess__text {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.buyprocess__text > a {}
 
 }
