@@ -637,5 +637,45 @@
 		line-height: 24px;
 		padding: 11px 0 15px;
 	}
+	.whynow {
+		padding-bottom: 53px;
+	}
+	.whynow__title {
+		font-size: 35px;
+		line-height: 41px;
+		margin: 50px 0;
+	}
+	.whynow__container {
+		width: 748px;
+		margin: 0 auto;
+	}
+	.whynow__item {
+		width: 100%;
+		min-height: 130px;
+		margin-bottom: 30px;
+		position: relative;
+		padding: 30px;
+	}
+	.whynow__count {
+		font-size: 90px;
+		line-height: 70px;
+		font-weight: 900;
+		position: absolute;
+		left: 30px;
+		top: 30px;
+	}
+	.whynow__info {
+		margin-left: 135px;
+	}
+	.whynow__item-title {
+		text-align: left;
+	}
+	.btn-whynow {
+		font-weight: 300;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+		font-size: 20px;
+		line-height: 24px;
+		padding: 21px 16px 22px;
+	}
 
 }
