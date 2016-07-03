@@ -788,11 +788,11 @@
 		background-image: url(../img/arrow-down-right.svg);
 		left: 50%;
 		bottom: -168px;
-	    margin-left: 0;
+	    margin-left: -5px;
 	}
 	.buyprocess__step_2 {
 		margin-top: 200px;
-		margin-left: 33px;
+		margin-left: 28px;
 	}
 	.buyprocess__step_2:after {
 		width: 144px;
