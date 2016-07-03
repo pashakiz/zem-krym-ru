@@ -13,29 +13,6 @@ $(document).ready(function() {
 	});
 
 
-	//Плавный скролл до блока .div по клику на .scroll
-	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
-			offset: -90
-		});
-	});
-
-	//Каруселька
-	//Документация: http://www.owlcarousel.owlgraphic.com/docs/started-welcome.html
-	$(".carousel").owlCarousel();
-
-	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
-	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("form").submit(function() {

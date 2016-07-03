@@ -291,10 +291,10 @@ body {
 	vertical-align: text-top;
 }
 .tooltip {
-	width: 414px;
+	width: 374px; /*414*/
 	position: absolute;
 	bottom: 18px;
-	left: -419px;
+	left: -379px; /*419*/
 	background: #fffdfd;
 	-webkit-border-radius: 15px;;
 	-moz-border-radius: 15px;
