@@ -126,8 +126,8 @@
 		background-image: url(../img/bg-firstscreen.png);
 	}
 	.firstscreen__title {
-		font-size: 51px;
-		line-height: 62px;
+		font-size: 45px;
+		line-height: 55px;
 		text-align: center;
 	}
 	.form1 {
@@ -136,14 +136,14 @@
 		margin: 0;
 	}
 	.form1__header {
-		font-size: 32px;
-		line-height: 38px;
+		font-size: 31px;
+		line-height: 36px;
 	}
 	.form1__title {
 		padding: 11px 45px 9px;
 	}
 	.form1__body-row {
-		padding: 19px 36px 10px;
+		padding: 15px 36px 10px;
 	}
 	.list {
 		margin: 0 0 4px 0;
@@ -160,12 +160,13 @@
 		left: -36px;
 	}
 	.form1__body-hr1 {
+		display: block;
 		height: 1px;
 		border-top: 1px solid #d9d9d9;
 		border-bottom: 1px solid #fff;
 	}
 	.form1__input {
-		padding: 18px 16px 14px;
+		padding: 13px 16px 12px;
 		margin-bottom: 12px;
 	}
 	.btn-send-firstscreen {
@@ -951,6 +952,9 @@
 	}
 	.footer__bottom {
 		font-size: 14px;
+	}
+	.popup {
+		width: 555px;
 	}
 
 }

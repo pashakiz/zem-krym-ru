@@ -521,7 +521,7 @@
 					function init () {
 						var myMap = new ymaps.Map('ymap', {
 								center: [44.49728974, 34.17058541],
-								zoom: 17
+								zoom: 16
 							});
 						var myPlacemark = new ymaps.Placemark([44.49728974, 34.17058541], {
 								hintContent: 'Zem-Krym.ru',
@@ -561,13 +561,132 @@
 		</div>
 		<div class="footer__bottom">&copy; 2016 ЗемКрым</div>
 	</footer>
-	<div class="popup" id="form-recall">.form1</div>
-	<div class="popup" id="form-region-mountain">form-region-mountain</div>
-	<div class="popup" id="form-region-south">form-region-south</div>
-	<div class="popup" id="form-region-west">form-region-west</div>
-	<div class="popup" id="form-region-east">form-region-east</div>
-	<div class="popup" id="form-whynow">form-whynow</div>
-	<div class="popup" id="form-buyprocess">form-buyprocess</div>
+	<div class="popup" id="form-recall">
+		<div class="popup__header">
+			<div class="popup__title">Закажите обратный звонок</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup1" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Заказать обратный звонок</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-mountain">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup2" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-south">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup3" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-west">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup4" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-region-east">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup5" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-whynow">
+		<div class="popup__header">
+			<div class="popup__title">Оставить заявку на подбор участка</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup6" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
+	<div class="popup" id="form-buyprocess">
+		<div class="popup__header">
+			<div class="popup__title">Отправьте заявку</div>
+		</div>
+		<div class="popup__body">
+			<div class="popup__body-row">
+				<form id="formpopup7" action="" method="POST">
+					<input class="form1__input" type="text" name="name" placeholder="Введите ваше имя" required="">
+					<input class="form1__input" type="text" name="phone" placeholder="Ваш телефон" required="">
+					<button class="btn btn-send-popup btn-send-popup-firstscreen" type="submit">Отправить заявку</button>
+				</form>
+			</div>
+			<div class="form1__body-hr2"></div>
+			<div class="form1__body-row">
+				<div class="data-security"><i class="data-security__icon icon-lock"></i>Ваши данные в безопасности</div>
+			</div>
+		</div> <!-- .popup__body -->
+	</div>
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv/es5-shim.min.js"></script>
 	<script src="js/html5shiv/html5shiv.min.js"></script>

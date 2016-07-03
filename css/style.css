@@ -169,7 +169,7 @@ body {
 	font-weight: 700;
 	line-height: 37px;
 	text-shadow: 0 4px 0 #004f6a;
-	margin: 18px 0 22px;
+	margin: 10px 0 18px;
 }
 .form1 {
 	width: 305px;
@@ -1234,5 +1234,54 @@ body {
 }
 .popup {
 	display: none;
+	width: 255px;
 }
-
+.popup__header {
+	background-color: #00a2d3;
+	-webkit-border-radius: 18px 18px 0 0;
+	-moz-border-radius: 18px 18px 0 0;
+	border-radius: 18px 18px 0 0;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 24px;
+	text-align: center;
+}
+.popup__header:after {
+	display: block;
+	content: "";
+	height: 7px;
+	width: 100%;
+	background-image: url(../img/zub.svg);
+	background-repeat: repeat-x;
+	position: relative;
+	bottom: -7px;
+}
+.popup__body {
+	padding-top: 5px;
+	background-color: #eaeaea;
+	-webkit-border-radius: 0 0 18px 18px;
+	-moz-border-radius: 0 0 18px 18px;
+	border-radius: 0 0 18px 18px;
+	-webkit-box-shadow: inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+	-moz-box-shadow:    inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+	box-shadow:         inset 0px -8px 0px 0px rgba(139, 139, 139, 0.38);
+}
+.popup__body-row {
+	padding: 14px 20px 0;
+}
+.popup__title {
+	padding: 13px 18px;
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: 700;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+.btn-send-popup {
+	width: 100%;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 24px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+}
