@@ -193,20 +193,23 @@
 		margin-bottom: 0;
 		display: block;
 	}
-	.advantage__icon {
+	.advantage__icon-border {
 		width: 107px;
 		height: 107px;
 		-webkit-border-radius: 54px;
 		-moz-border-radius: 54px;
 		border-radius: 54px;
 	}
-	.advantage__icon > i {
-		width: 99px;
+	.advantage__icon {
+		width: 100px;
 		height: 99px;
 		font-size: 51px;
 		-webkit-border-radius: 50px;
 		-moz-border-radius: 50px;
 		border-radius: 50px;
+	}
+	.advantage__icon > i {
+		vertical-align: middle;
 	}
 	.advantage__title {
 		font-size: 19px;
@@ -266,6 +269,7 @@
 		background-image: url(../img/bg-regions.jpg);
 		background-repeat: no-repeat;
 		background-position: 50% 0;
+		background-size: cover;
 	}
 	.regions__title {
 		font-size: 35px;
@@ -563,6 +567,7 @@
 		background-image: url(../img/bg-regions.jpg);
 		background-repeat: no-repeat;
 		background-position: 50% 38%;
+		background-size: cover;
 	}
 	.guarantees__rope {
 		width: 388px;
@@ -688,6 +693,7 @@
 		background-image: url(../img/bg-regions.jpg);
 		background-repeat: no-repeat;
 		background-position: 50% 38%;
+		background-size: cover;
 	}
 	.bigtest__title {
 		font-size: 35px;

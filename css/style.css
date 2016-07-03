@@ -382,7 +382,7 @@ body {
 	display: inline-block;
 	text-align: left;
 }
-.advantage__icon {
+.advantage__icon-border {
 	display: inline-block;
 	width: 61px;
 	height: 61px;
@@ -394,7 +394,7 @@ body {
 	text-align: center;
 	margin-right: 13px;
 }
-.advantage__icon > i {
+.advantage__icon {
 	display: block;
 	width: 53px;
 	height: 53px;
@@ -405,9 +405,16 @@ body {
 	-moz-border-radius: 27px;
 	border-radius: 27px;
 }
+.advantage__icon > i {
+	display: inline-block;
+	width: 53px;
+	height: 53px;
+	vertical-align: middle;
+}
 .advantage__icon > i:before {
 	vertical-align: middle;
-	vertical-align: -webkit-baseline-middle;
+	// vertical-align: -webkit-baseline-middle;
+	// vertical-align: -moz-middle-with-baseline;
 }
 .advantage__info {
 	width: 235px;
@@ -605,6 +612,7 @@ body {
 	background-image: url(../img/bg-nature.png);
 	background-repeat: no-repeat;
 	background-position: 50% 0;
+	background-size: cover;
 }
 .formblue__container {
 	height: 100%;
@@ -847,6 +855,7 @@ body {
 	background-image: url(../img/bg-nature.png);
 	background-repeat: no-repeat;
 	background-position: 50% 0;
+	background-size: cover;
 }
 .formbluesale__title {
 	color: #fff;
@@ -1027,6 +1036,7 @@ body {
 	background-image: url(../img/bg-nature.png);
 	background-repeat: no-repeat;
 	background-position: 50% 0;
+	background-size: cover;
 	text-align: center;
 	padding: 17px 0 16px;
 }
