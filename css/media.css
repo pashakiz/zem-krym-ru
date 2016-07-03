@@ -1018,5 +1018,15 @@
 	.popup {
 		width: 555px;
 	}
+	.popup__title {
+		padding: 13px 18px;
+		font-size: 35px;
+		line-height: 41px;
+	}
+	.btn-send-popup {
+		padding: 17px 28px;
+		font-size: 20px;
+		line-height: 24px;
+	}
 
 }

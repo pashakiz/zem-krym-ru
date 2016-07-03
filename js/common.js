@@ -58,6 +58,7 @@ $(document).ready(function() {
 			$(this).removeClass('active');
 			$(this).parent().next(".tooltip-region").hide();
 		} else {
+			$(".tooltip-region").hide();
 			$(this).addClass('active');
 			$(this).parent().next(".tooltip-region").show();
 		}
