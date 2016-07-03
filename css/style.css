@@ -160,7 +160,8 @@ body {
 	height: 684px;
 	background-image: url(../img/bg-firstscreen-mobile.png);
 	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-position: 50% 100%;
+	background-size: cover;
 }
 .firstscreen__title {
 	color: #fff;
