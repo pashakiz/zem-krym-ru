@@ -185,7 +185,7 @@ body {
 	margin-bottom: 34px;
 }
 .thankyou__lnk {
-	display: block;
+	display: inline-block;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
@@ -443,8 +443,8 @@ body {
 }
 .advantage__icon > i {
 	display: inline-block;
-	width: 53px;
-	height: 53px;
+	width: 29px;
+	height: 33px;
 	vertical-align: middle;
 }
 .advantage__icon > i:before {
@@ -453,7 +453,7 @@ body {
 	// vertical-align: -moz-middle-with-baseline;
 }
 .advantage__info {
-	width: 235px;
+	width: 195px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -469,10 +469,7 @@ body {
 	line-height: 16px;
 }
 .stages {
-	height: 866px;
-	background-image: url(../img/bg-stages-mobile.jpg);
-	background-repeat: no-repeat;
-	background-position: 50% 0;
+	background-color: #10a7d4;
 	color: #fff;
 }
 .stage {
@@ -483,7 +480,6 @@ body {
 }
 .stage__title {
 	display: table;
-	width: 303px;
 	height: 80px;
 	background-color: #fff;
 	border: 1px dashed #10a7d4;
@@ -528,7 +524,7 @@ body {
 	margin-bottom: 17px;
 }
 .need {
-	width: 144px;
+	width: 123px;
 	margin: 0 auto 14px;
 	background-color: #fff;
 	-webkit-border-radius: 6px;
@@ -539,8 +535,8 @@ body {
 	box-shadow:         0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .need__img-container {
-	width: 144px;
-	height: 76px;
+	width: 123px;
+	height: 64px;
 }
 .need__img {
 	width: 100%;
@@ -583,6 +579,7 @@ body {
 	border-bottom: none;
 }
 .tooltip-region__title-btn-hide {
+	display: none;
 	float: right;
 	color: #404040;
 	font-size: 10px;
@@ -610,6 +607,7 @@ body {
 	height: auto;
 }
 .tooltip-region__info {
+	width: 185px;
 	float: left;
 	text-align: center;
 }
@@ -630,13 +628,14 @@ body {
 }
 .btn-tooltip-region {
 	display: block;
-	padding: 9px 26px 13px;
-	font-size: 15px;
+	width: 100%;
+	padding: 9px 15px 13px;
+	font-size: 13px;
 	line-height: 18px;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
 	position: absolute;
 	left: 50%;
-	margin-left: -153px;
+	margin-left: -134px;
 }
 .tooltip-region__inner {
 	position: relative;

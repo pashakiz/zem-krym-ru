@@ -53,8 +53,36 @@
 	.phone__number {
 		font-size: 32px;
 	}
+	.advantage__info {
+		width: 235px;
+	}
 	.tooltip-region__info {
 		width: 230px;
+	}
+	.stages {
+		height: 866px;
+		background-image: url(../img/bg-stages-mobile.jpg);
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+	}
+	.stage__title {
+		width: 303px;
+	}
+	.need {
+		width: 144px;
+	}
+	.need__img-container {
+		width: 144px;
+		height: 76px;
+	}
+	.tooltip-region__title-btn-hide {
+		display: block;
+	}
+	.btn-tooltip-region {
+		width: auto;
+		padding: 9px 26px 13px;
+		font-size: 15px;
+		margin-left: -153px;
 	}
 	.buyprocess__step {
 		width: 290px;
@@ -242,6 +270,8 @@
 		border-radius: 50px;
 	}
 	.advantage__icon > i {
+		width: 53px;
+		height: 59px;
 		vertical-align: middle;
 	}
 	.advantage__title {
