@@ -12,6 +12,8 @@ $(document).ready(function() {
 		padding: 0
 	});
 
+	// Маска ввода телефона
+	
 
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
