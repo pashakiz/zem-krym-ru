@@ -20,11 +20,22 @@ $(document).ready(function() {
 	$("form").submit(function() {
 
 		var name = $(this).find("input[name='name']").val(),
-			phone = $(this).find("input[name='phone']").val();
+			phone = $(this).find("input[name='phone']").val(),
+			question = $(this).find("textarea[name='question']").val();
 
-		if (!name || !phone) {
-			alert("Заполните поля формы.");
-			return false;
+		if (question !== undefined) {
+
+			if (!question || !phone) {
+				alert("Заполните поля формы.");
+				return false;
+			}
+
+		} else {
+
+			if (!name || !phone) {
+				alert("Заполните поля формы.");
+				return false;
+			}
 		}
 
 		//маска на телефон
@@ -32,22 +43,19 @@ $(document).ready(function() {
 		$.ajax({
 			type: "POST",
 			url: "mail.php",
-			data: $("form").serialize(),
+			data: $(this).serialize(),
 			success: function(response) {
 				console.log("jquery-ajax-mail-success");
 				console.log('response: ' + response);
-				window.location.replace('http://zem-krym.ru/thank_you.html');
+				window.location.href = 'http://zem-krym.ru/thank_you.html';
 			},
 			error:  function(xhr, str){
-				alert('Возникла ошибка: ' + xhr.responseCode);
+				alert('Возникла ошибка: ' + xhr);
 				console.log('response: ' + xhr);
-				window.location.replace('http://zem-krym.ru/error.html');
+				window.location.href = 'http://zem-krym.ru/thank_you.html';
 			}
 		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
+			// alert("Спасибо за заявку!");
 		});
 		return false;
 	});
@@ -114,7 +122,7 @@ jQuery(window).load(function() {
 		}
 
 		$('.area', svgdom).on('mouseleave', function() {
-			
+
 			$(this).removeClass('hover');
 			var id = $(this).attr('id');
 			console.log('.area not hover...');
