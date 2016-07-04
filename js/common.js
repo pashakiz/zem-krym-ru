@@ -34,14 +34,14 @@ $(document).ready(function() {
 			url: "mail.php",
 			data: $("form").serialize(),
 			success: function(response) {
-				//$('#order_status').html(response);
-				$('#order_status').html('Спасибо, Ваша заявка отправлена!');
 				console.log("jquery-ajax-mail-success");
 				console.log('response: ' + response);
+				window.location.replace('http://zem-krym.ru/thank_you.html');
 			},
 			error:  function(xhr, str){
 				alert('Возникла ошибка: ' + xhr.responseCode);
 				console.log('response: ' + xhr);
+				window.location.replace('http://zem-krym.ru/error.html');
 			}
 		}).done(function() {
 			alert("Спасибо за заявку!");
