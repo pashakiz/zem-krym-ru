@@ -77,10 +77,14 @@ jQuery(window).load(function() {
 
 	if ('contentDocument' in svgobject) {					// У нас действительно там что-то есть?
 		var svgdom = jQuery(svgobject.contentDocument);		// Получаем доступ к объектной модели SVG-файла
+		var timerId = 0;
 
-		$('.area', svgdom).on('mouseover', function() {
+		$('.area', svgdom).on('mouseenter', function() {
+
+			clearTimeout(timerId);
 
 			var id = $(this).attr('id');
+			$(this).addClass('hover');
 
 			$('.tooltip-region').hide();
 			
@@ -99,10 +103,49 @@ jQuery(window).load(function() {
 		});
 
 		if ($(window).width() > 1200) { //for Desktops
+			$('.tooltip-region').on('mouseenter', function() {
+				$('.tooltip-region').addClass('hover');
+				$('.area', svgdom).removeClass('hover');
+			});
 			$('.tooltip-region').on('mouseleave', function() {
 				$(this).hide();
+				$('.tooltip-region').removeClass('hover');
 			});
 		}
+
+		$('.area', svgdom).on('mouseleave', function() {
+			
+			$(this).removeClass('hover');
+			var id = $(this).attr('id');
+			console.log('.area not hover...');
+
+			timerId = setTimeout(function() {
+				if (id == "area-east") {
+					if ( !$('.tooltip-region_east').hasClass('hover') ) {
+						$('.tooltip-region_east').hide();
+						console.log('.area not hover: .tooltip-region_east hide');
+					}
+				}
+				if (id == "area-west") {
+					if ( !$('.tooltip-region_west').hasClass('hover') ) {
+						$('.tooltip-region_west').hide();
+						console.log('.area not hover: .tooltip-region_west hide');
+					}
+				}
+				if (id == "area-south") {
+					if ( !$('.tooltip-region_south').hasClass('hover') ) {
+						$('.tooltip-region_south').hide();
+						console.log('.area not hover: .tooltip-region_south hide');
+					}
+				}
+				if (id == "area-mountain") {
+					if ( !$('.tooltip-region_mountain').hasClass('hover') ) {
+						$('.tooltip-region_mountain').hide();
+						console.log('.area not hover: .tooltip-region_mountain hide');
+					}
+				}
+			}, 1500);
+		});
 		
 	}
 });
