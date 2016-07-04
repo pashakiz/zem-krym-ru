@@ -288,8 +288,8 @@
 		margin: 44px 0 8px;
 	}
 	.advantages__subtitle {
-		font-size: 21px;
-		line-height: 24px;
+		font-size: 24px;
+		line-height: 28px;
 	}
 	.stages {
 		height: 346px;
@@ -437,7 +437,7 @@
 		margin-left: 0;
 	}
 	.tooltip-region_mountain {
-		bottom: 43px;
+		bottom: 68px;
 		left: 50%;
 		margin-left: -25px;
 	}
@@ -447,9 +447,9 @@
 		margin-left: -230px;
 	}
 	.tooltip-region_east {
-		bottom: 120px;
+		bottom: 156px;
 		right: 50%;
-		margin-right: -145px;
+		margin-right: -256px;
 	}
 	.tooltip-region_south {
 		bottom: 30px;
@@ -612,6 +612,7 @@
 		width: 137px;
 		height: 189px;
 		margin-bottom: 11px;
+		border: 1px solid #979797;
 	}
 	.recall__original-icon {
 		margin-right: 8px;
@@ -671,7 +672,7 @@
 		left: 24px;
 	}
 	.formbluesale__sale-text {
-		padding: 16px 0 13px 35px;
+		padding: 16px 0 8px 35px;
 	}
 	.formbluesale__sale-text-title {
 		font-size: 23px;
@@ -680,13 +681,14 @@
 	}
 	.formbluesale__sale-text .list {
 		padding: 0 0 0 18px;
+		margin-bottom: 0;
 	}
 	.formbluesale__sale-text .list__item-icon {
 		left: -18px;
 		margin-right: 12px;
 	}
 	.formbluesale__sale-text .list__item {
-		font-size: 13px;
+		font-size: 15px;
 		line-height: 15px;
 		margin-bottom: 5px;
 	}
