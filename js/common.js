@@ -38,7 +38,14 @@ $(document).ready(function() {
 			}
 		}
 
-		//маска на телефон
+		// Проверка телефона
+		var reg = /^[0-9()\-+ ]+$/;
+		
+		if ( !reg.test(phone) ) {
+			alert("Неверный формат номера телефона. Введите еще раз.");
+			return false;
+		}
+
 
 		$.ajax({
 			type: "POST",
@@ -52,7 +59,7 @@ $(document).ready(function() {
 			error:  function(xhr, str){
 				alert('Возникла ошибка: ' + xhr);
 				console.log('response: ' + xhr);
-				window.location.href = 'http://zem-krym.ru/thank_you.html';
+				window.location.href = 'http://zem-krym.ru/error.html';
 			}
 		}).done(function() {
 			// alert("Спасибо за заявку!");
