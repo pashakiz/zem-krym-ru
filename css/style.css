@@ -110,6 +110,7 @@ body {
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 16px;
+	margin: 0;
 }
 .phone {
 	font-family: "Roboto", sans-serif;
@@ -667,7 +668,7 @@ body {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	margin-bottom: 6px;
+	margin: 0 0 6px 0;
 }
 .formblue__title2 {
 	color: #fff;
@@ -708,7 +709,7 @@ body {
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
-	margin-bottom: 24px;
+	margin: 0 0 24px 0;
 }
 .recall {
 	position: relative;
@@ -873,8 +874,7 @@ body {
 	text-align: center;
 	position: relative;
 	right: -16px;
-	margin-left: -32px;
-	margin-bottom: 16px;
+	margin: 0 0 16px -32px;
 }
 .guarantees__ititle {
 	font-weight: 700;
@@ -905,6 +905,7 @@ body {
 	line-height: 28px;
 	text-align: center;
 	padding: 24px 0 18px;
+	margin: 0;
 }
 .formbluesale__sale {
 	background-color: #fff;
@@ -984,6 +985,7 @@ body {
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 19px;
+	margin: 35px 0 19px 0;
 }
 .whynow__item {
 	padding: 15px 19px 20px;
@@ -1033,7 +1035,7 @@ body {
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
-	margin-bottom: 22px;
+	margin: 0 0 22px 0;
 }
 .bigtest__items {}
 .bigtest__item {
@@ -1086,7 +1088,7 @@ body {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	margin-bottom: 9px;
+	margin: 0 0 9px 0;
 }
 .formblue3__title2 {
 	color: #fff;
@@ -1125,7 +1127,7 @@ body {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	margin-bottom: 27px;
+	margin: 0 0 27px 0;
 	text-align: center;
 }
 .buyprocess__step {

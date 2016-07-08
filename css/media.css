@@ -481,7 +481,6 @@
 		text-align: left;
 		font-size: 35px;
 		line-height: 41px;
-		margin-bottom: 6px;
 	}
 	.formblue__title2 {
 		text-align: left;
@@ -949,7 +948,7 @@
 		font-size: 35px;
 		font-weight: 700;
 		line-height: 41px;
-		margin-bottom: 4px;
+		margin: 0 0 4px 0;
 	}
 	.contacts__form-subtitle {
 		color: #fff;
