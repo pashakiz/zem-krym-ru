@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "pashakiz@gmail.com";
+$recepient = "bo@zem-krym.ru";
 $sitename = "Zem-Krym.ru";
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
 
@@ -16,6 +16,13 @@ if ( $question == "" ) {
 } else {
 	$message = "Вопрос: $question \r\nТелефон: $phone \r\nФорма: $form \r\nIP: $ip";
 }
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\r\n From: $name <no-reply@zem-krym.ru>");
+
+$headers =	'MIME-Version: 1.0. '."\r\n" .
+			'Content-type: text/plain; charset=utf-8'. "\r\n" .
+			'From: '.$name.' <no-reply@zem-krym.ru>' . "\r\n" .
+			'Reply-To: no-reply@zem-krym.ru' . "\r\n" .
+			'X-Mailer: PHP/' . phpversion();
+
+mail($recepient, $pagetitle, $message, $headers);
 
 ?>
