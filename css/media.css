@@ -655,15 +655,6 @@
 	.formbluesale__sale {
 		padding-bottom: 0;
 	}
-	.formbluesale__sale-icon {
-		display: inline-block;
-		width: 181px;
-		height: 78px;
-	}
-	.formbluesale__sale-icon img {
-		width: 100%;
-		height: auto;
-	}
 	.formbluesale__sale-title {
 		display: inline-block;
 		padding: 28px 0 29px;
@@ -671,12 +662,7 @@
 		left: 24px;
 	}
 	.formbluesale__sale-text {
-		padding: 16px 0 8px 35px;
-	}
-	.formbluesale__sale-text-title {
-		font-size: 23px;
-		line-height: 27px;
-		margin-bottom: 10px;
+		padding: 28px 0 15px 35px;
 	}
 	.formbluesale__sale-text .list {
 		padding: 0 0 0 18px;

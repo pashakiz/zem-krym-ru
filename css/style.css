@@ -343,7 +343,7 @@ body {
 }
 .tooltip:after, .tooltip:before {
 	left: 100%;
-	top: 50%;
+	top: 65%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -365,11 +365,12 @@ body {
 }
 .tooltip__title {
 	color: #fb8235;
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 700;
-	line-height: 38px;
+	line-height: 52px;
 }
 .tooltip__text {
+	font-size: 13px;
 	margin-bottom: 7px;
 }
 .list_circle {
@@ -911,25 +912,16 @@ body {
 	background-color: #fff;
 	padding-bottom: 10px;
 }
-.formbluesale__sale-icon {
-	display: none;
-}
 .formbluesale__sale-title {
 	display: block;
 	color: #fb8235;
-	font-size: 56px;
-	line-height: 40px;
+	font-size: 42px;
+	line-height: 44px;
 	font-weight: 700;
 	text-align: center;
-	padding: 16px 0;
+	padding: 25px 0;
 }
 .formbluesale__sale-text {}
-.formbluesale__sale-text-title {
-	color: #1e1e1e;
-	font-size: 15px;
-	line-height: 19px;
-	margin-bottom: 13px;
-}
 .formbluesale__sale-text .list {
 	padding: 0 0 0 19px;
 }
@@ -1327,4 +1319,8 @@ body {
 	font-weight: 300;
 	line-height: 24px;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.23);
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
