@@ -336,14 +336,14 @@ body {
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	border-bottom: 2px solid #808080;
-	padding: 12px 22px 19px;
+	padding: 10px 20px 8px;
 }
 .tooltip_sale {
 	display: none;
 }
 .tooltip:after, .tooltip:before {
 	left: 100%;
-	top: 65%;
+	top: 50%;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -365,12 +365,14 @@ body {
 }
 .tooltip__title {
 	color: #fb8235;
-	font-size: 28px;
+	font-size: 22px;
 	font-weight: 700;
-	line-height: 52px;
+	line-height: 31px;
+	margin-bottom: 5px;
 }
 .tooltip__text {
-	font-size: 13px;
+	font-size: 11px;
+	line-height: 1.2;
 	margin-bottom: 7px;
 }
 .list_circle {
